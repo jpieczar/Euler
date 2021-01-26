@@ -1,6 +1,6 @@
 hold = 0
 
-myFile = open("eleven_resources.txt", 'r')
+myFile = open("resources/eleven_resources.txt", 'r')
 myList = myFile.readlines()
 myFile.close()
 

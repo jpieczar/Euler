@@ -1,4 +1,4 @@
-myFile = open("eight_resources", 'r')
+myFile = open("resources/eight_resources.txt", 'r')
 myList = ""
 for line in myFile:
     myList += line.strip()

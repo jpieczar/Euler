@@ -1,12 +1,4 @@
 import math
-'''
-def if_prime(num):
-    #for i in range(2, num):
-        if num % i == 0:
-            return 0#
-    if (math.sqrt(num).is_integer()):
-        return 0
-    return 1'''
 
 def if_prime(num):
     for i in range(2, int(math.sqrt(num)) + 1):
