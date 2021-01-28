@@ -1,5 +1,5 @@
 
-str_arr = [line.rstrip('\n') for line in open('13resources.txt')]
+str_arr = [line.rstrip('\n') for line in open('resources/thirteen_resources.txt')]
 num_arr = [int(number) for number in str_arr if number != ""]
 total = sum(num_arr)
 
