@@ -15,9 +15,9 @@ def longest_sequence():
         while number != 1:
             number = collatz(number)
             seq += True
-            if seq > longest:
-                longest = seq
-                longest_num = i
+        if seq > longest:
+            longest = seq
+            longest_num = i
     return longest, longest_num
     
 longest_seq, init = longest_sequence()
